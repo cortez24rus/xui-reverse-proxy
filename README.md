@@ -57,9 +57,9 @@ SERVER 2
      - VLESS-HTTPUpgrade-TLS
      - VLESS-Websocket-TLS
    - The user “flow”: “xtls-rprx-vision” must be enabled
-     - VLESS-TCP-REALITY
      - VLESS-TCP-REALITY (Steal oneself) (disconnection will result in loss of access)
      - VLESS-TCP-TLS
+   - Important: It is recommended to choose one suitable connection type and use only that one (otherwise, you may attract the censor's attention). You can disable all incoming connections except the one marked as STEAL. Disabling STEAL will result in losing access to the web interface, as this connection type is used for proxy management access.
 2. Configuring NGINX reverse proxy on port 443.
 3. Providing security:
    - Automatic system updates via unattended-upgrades.
